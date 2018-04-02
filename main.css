@@ -1,0 +1,133 @@
+html {
+    background-color: RGB(192,192,192);
+}
+
+body {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    font-family: FreeSans, sans-serif;
+    margin: 0px auto;
+    padding: 0px 2em;
+    width: 760px;
+}
+
+header {
+    border-bottom: 2px solid #000000;
+    padding: 0.5em 0px;
+}
+
+header h1 {
+    color: #000000;
+}
+
+aside {
+    float: left;
+    width: 500px;
+}
+
+section {
+    float: left;
+    width: 500px;
+}
+
+footer {
+    border-top: 2px solid #000000;
+    clear: both;
+}
+
+footer p {
+    font-size: 80%;
+    text-align: right;
+}
+
+h1 {
+    font-size: 150%;
+    margin: 0.5em 0px;
+}
+
+h2 {
+    font-size: 120%;
+    margin: 0.25em 0px 0.5em;
+}
+
+h1, h2 {
+    color: RGB(208,133,4);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-bottom: 1em;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: RGB(41,64,124);
+}
+
+a:hover {
+    color: RGB(208,133,4);
+}
+
+br {
+    clear: left;
+}
+
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td, th {
+    border: 1px dashed black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.first_paragraph {
+    margin-top: 0px;
+}
+
+.last_paragraph {
+    margin-bottom: 2em;
+}
+
+#left_column {
+    float: left;
+    text-align: center;
+    width: 150px;
+}
+
+#right-column {
+    float: left;
+    padding-bottom: 2em;
+    padding-left: 1em;
+}
+
+#add_product_form {
+    margin: 0.5em 0px;
+}
+
+#add_product_form_label {
+    float: left;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    width: 6em;
+}
+
+#add_product_form input {
+    float: left;
+}
+
+#add_product_form input[text] {
+    width: 15em;
+}
