@@ -78,13 +78,13 @@ br {
 }
 
 table {
-    border: 1px solid #000000;
+    border: 1px solid #DCDCDC;
     border-collapse: collapse;
     margin-bottom: 1em;
 }
 
 td, th {
-    border: 1px dashed black;
+    border: 1px solid #DCDCDC;
     padding: 0.2em 0.5em 0.2em 0.5em;
     text-align: left;
 }
